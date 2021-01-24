@@ -1,0 +1,20 @@
+{
+  "name": "alexander/myproject",
+  "type": "project",
+  "license": "propietary",
+  "authors": [
+    {
+      "name": "Alex Dublennikov",
+      "email": "al41ex@cktv.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MyProject\\": "src/MyProject/"
+    }
+  },
+  "require": {
+    "erusev/parsedown": "^1.7",
+    "ext-json": "*"
+  }
+}
